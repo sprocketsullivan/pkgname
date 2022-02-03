@@ -1,7 +1,7 @@
 Package: pkgname
 Title: This is a test run package
 Version: 5.0.0
-Authors@R: 
+Authors@R:
     person("Ulf", "Toelch", , "first.last@example.com", role = c("aut", "cre"))
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
@@ -10,3 +10,9 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+URL: https://github.com/sprocketsullivan/pkgname
+BugReports: https://github.com/sprocketsullivan/pkgname/issues
+Imports: bookdown,
+    here
+Suggests: devtools,
+    git2r
